@@ -13,9 +13,8 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
-    background-size: cover;
-    background-position: center;
+    background-size: contain;
+    background-position: right;
 }
 
 .container {
@@ -283,7 +282,7 @@ width: 100%;
 }
 
 .btn:hover {
-    background: #ff004f;
+    background: #2fff00;
 }
 
 /* ----------CONTACT---------- */
@@ -335,7 +334,7 @@ width: 100%;
 }
 
 .btn.btn3:hover {
-    background: #2fff00;
+    background: #249c09;
 }
 
 .contact-right form {
@@ -398,7 +397,7 @@ nav .fas {
     }
 
     nav ul {
-        background: #b54768;
+        background: #249c09;
         position: fixed;
         top: 0;
         width: 200;
@@ -442,7 +441,7 @@ nav .fas {
     }
 
     nav ul {
-        background: #b54768;
+        background: #2fff00;
         position: fixed;
         top: 0;
         width: 200px;
