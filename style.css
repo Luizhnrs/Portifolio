@@ -415,12 +415,12 @@ nav .fas {
 
 }
 
-/* ----------CSS FOR SMALL SCREEN---------- */
+/* ----------CSS FOR PHONE---------- */
 @media only screen and (max-width: 600px) {
 
-    /* Adjust the header image and text size for small screens */
+ 
     #header {
-        background-image: url(images/phone-background.png);
+        background-image: url(images/uwp3673567.jpeg);
     }
 
     .header-text {
@@ -432,7 +432,7 @@ nav .fas {
         font-size: 30px;
     }
 
-    /* Show the navigation menu on small screens */
+    
     nav ul {
         display: none;
     }
@@ -447,12 +447,12 @@ nav .fas {
         position: fixed;
         top: 0;
         width: 200px;
-        /* Increased the width to accommodate the menu items */
+       
         right: 0;
         height: 100vh;
         padding-top: 50px;
         transform: translateX(200px);
-        /* Off-canvas menu, initially hidden */
+    
         transition: transform 0.3s ease-in-out;
     }
 
