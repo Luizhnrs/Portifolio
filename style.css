@@ -381,7 +381,11 @@ nav .fas {
 /* ----------CSS FOR SMALL SCREEN---------- */
 @media only screen and (max-width: 600px) {
     #header {
-        background-image: url(images/phone-background.png);
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(images/Black\ Simple\ Geometric\ Discord\ Profile\ Banner.png);
+        background-size: Cover;
+        background-position: center;
     }
 
     .header-text {
@@ -420,7 +424,11 @@ nav .fas {
 
  
     #header {
-        background-image: url(images/uwp3673567.jpeg);
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 1)), url(images/Black\ Simple\ Geometric\ Discord\ Profile\ Banner.png);
+        background-size: Cover;
+        background-position: center;
     }
 
     .header-text {
@@ -429,7 +437,7 @@ nav .fas {
     }
 
     .header-text h1 {
-        font-size: 30px;
+        font-size: 22px;
     }
 
     
